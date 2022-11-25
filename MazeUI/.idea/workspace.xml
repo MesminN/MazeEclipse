@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ba78a333-fe41-4571-8162-9b3ee2dcc74b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Maze/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Maze/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Maze/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maze/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maze/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Maze/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maze/.idea/google-java-format.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Maze/.idea/google-java-format.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maze/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Maze/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maze/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Maze/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maze/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maze/Maze.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Maze/Maze.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maze/data/labyrinthe.maze" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maze/out/production/Maze/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maze/out/production/Maze/fr/tp/graph/Dijkstra.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maze/out/production/Maze/fr/tp/graph/Distance.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maze/out/production/Maze/fr/tp/graph/Graph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maze/out/production/Maze/fr/tp/graph/MinDistance.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maze/out/production/Maze/fr/tp/graph/ProcessedVertexesSet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maze/out/production/Maze/fr/tp/graph/ShortestPaths.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maze/out/production/Maze/fr/tp/graph/Vertex.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maze/out/production/Maze/fr/tp/graph/impl/BasicEdge.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maze/out/production/Maze/fr/tp/graph/impl/BasicGraph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maze/out/production/Maze/fr/tp/graph/impl/BasicMinDistance.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maze/out/production/Maze/fr/tp/graph/impl/BasicShortestPaths.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maze/out/production/Maze/fr/tp/graph/impl/BasicVertex.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maze/out/production/Maze/fr/tp/graph/impl/BasicVertexesSet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maze/out/production/Maze/fr/tp/maze/ArrivalBox.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maze/out/production/Maze/fr/tp/maze/Coordinates.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maze/out/production/Maze/fr/tp/maze/DepartureBox.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maze/out/production/Maze/fr/tp/maze/DistanceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maze/out/production/Maze/fr/tp/maze/EmptyBox.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maze/out/production/Maze/fr/tp/maze/FileMazePersistenceManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maze/out/production/Maze/fr/tp/maze/Maze.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maze/out/production/Maze/fr/tp/maze/MazeBox.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maze/out/production/Maze/fr/tp/maze/MazeFactoryImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maze/out/production/Maze/fr/tp/maze/MazeSize.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maze/out/production/Maze/fr/tp/maze/WallBox.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maze/out/production/Maze/fr/tp/maze/exceptions/FileMazePersistenceIncherentColumnsSize.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maze/out/production/Maze/fr/tp/maze/exceptions/FileMazePersistenceUnknownCharacter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maze/out/production/Maze/fr/tp/maze/model/MazeBoxModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maze/out/production/Maze/fr/tp/maze/model/MazeFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maze/out/production/Maze/fr/tp/maze/model/MazeModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maze/out/production/Maze/fr/tp/maze/model/MazePersistenceManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maze/out/production/Maze/fr/tp/maze/model/ModelObserver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maze/out/production/Maze/fr/tp/maze/ui/AbstractBoxTypeRadioButton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maze/out/production/Maze/fr/tp/maze/ui/ArrivalBoxButton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maze/out/production/Maze/fr/tp/maze/ui/BoxMouseAdapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maze/out/production/Maze/fr/tp/maze/ui/BoxPanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maze/out/production/Maze/fr/tp/maze/ui/ChooserButtonGroup.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maze/out/production/Maze/fr/tp/maze/ui/ClearMazeMenuItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maze/out/production/Maze/fr/tp/maze/ui/ClearShortestPathButton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maze/out/production/Maze/fr/tp/maze/ui/DepartureBoxButton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maze/out/production/Maze/fr/tp/maze/ui/DrawingMenuBar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maze/out/production/Maze/fr/tp/maze/ui/EmptyBoxButton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maze/out/production/Maze/fr/tp/maze/ui/FileMenu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maze/out/production/Maze/fr/tp/maze/ui/InformationMazeMenuItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maze/out/production/Maze/fr/tp/maze/ui/MazeEditor$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maze/out/production/Maze/fr/tp/maze/ui/MazeEditor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maze/out/production/Maze/fr/tp/maze/ui/MazeMenu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maze/out/production/Maze/fr/tp/maze/ui/MazePanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maze/out/production/Maze/fr/tp/maze/ui/NewMazeMenuItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maze/out/production/Maze/fr/tp/maze/ui/OpenFileMenuItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maze/out/production/Maze/fr/tp/maze/ui/QuitMenuItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maze/out/production/Maze/fr/tp/maze/ui/RootPanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maze/out/production/Maze/fr/tp/maze/ui/SaveAsMenuItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maze/out/production/Maze/fr/tp/maze/ui/SaveMenuItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maze/out/production/Maze/fr/tp/maze/ui/SaveMenuItemAbstract.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maze/out/production/Maze/fr/tp/maze/ui/SolveMazeButton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maze/out/production/Maze/fr/tp/maze/ui/WallBoxButton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maze/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maze/src/fr/tp/graph/Dijkstra.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maze/src/fr/tp/graph/Distance.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maze/src/fr/tp/graph/Graph.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maze/src/fr/tp/graph/MinDistance.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maze/src/fr/tp/graph/ProcessedVertexesSet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maze/src/fr/tp/graph/ShortestPaths.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maze/src/fr/tp/graph/Vertex.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maze/src/fr/tp/graph/impl/BasicEdge.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maze/src/fr/tp/graph/impl/BasicGraph.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maze/src/fr/tp/graph/impl/BasicMinDistance.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maze/src/fr/tp/graph/impl/BasicShortestPaths.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maze/src/fr/tp/graph/impl/BasicVertex.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maze/src/fr/tp/graph/impl/BasicVertexesSet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maze/src/fr/tp/maze/ArrivalBox.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maze/src/fr/tp/maze/Coordinates.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maze/src/fr/tp/maze/DepartureBox.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maze/src/fr/tp/maze/DistanceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maze/src/fr/tp/maze/EmptyBox.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maze/src/fr/tp/maze/FileMazePersistenceManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maze/src/fr/tp/maze/Maze.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maze/src/fr/tp/maze/MazeBox.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maze/src/fr/tp/maze/MazeFactoryImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maze/src/fr/tp/maze/MazeSize.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maze/src/fr/tp/maze/SerializationFileMazePersistenceManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maze/src/fr/tp/maze/WallBox.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maze/src/fr/tp/maze/exceptions/FileMazePersistenceIncherentColumnsSize.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maze/src/fr/tp/maze/exceptions/FileMazePersistenceUnknownCharacter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maze/src/fr/tp/maze/model/MazeBoxModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maze/src/fr/tp/maze/model/MazeFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maze/src/fr/tp/maze/model/MazeModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maze/src/fr/tp/maze/model/MazePersistenceManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maze/src/fr/tp/maze/model/ModelObserver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maze/src/fr/tp/maze/ui/AbstractBoxTypeRadioButton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maze/src/fr/tp/maze/ui/ArrivalBoxButton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maze/src/fr/tp/maze/ui/BoxMouseAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maze/src/fr/tp/maze/ui/BoxPanel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maze/src/fr/tp/maze/ui/ChooserButtonGroup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maze/src/fr/tp/maze/ui/ClearMazeMenuItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maze/src/fr/tp/maze/ui/ClearShortestPathButton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maze/src/fr/tp/maze/ui/DepartureBoxButton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maze/src/fr/tp/maze/ui/DrawingMenuBar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maze/src/fr/tp/maze/ui/EmptyBoxButton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maze/src/fr/tp/maze/ui/FileMenu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maze/src/fr/tp/maze/ui/InformationMazeMenuItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maze/src/fr/tp/maze/ui/MazeEditor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maze/src/fr/tp/maze/ui/MazeMenu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maze/src/fr/tp/maze/ui/MazePanel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maze/src/fr/tp/maze/ui/NewMazeMenuItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maze/src/fr/tp/maze/ui/OpenFileMenuItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maze/src/fr/tp/maze/ui/QuitMenuItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maze/src/fr/tp/maze/ui/RootPanel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maze/src/fr/tp/maze/ui/SaveAsMenuItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maze/src/fr/tp/maze/ui/SaveMenuItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maze/src/fr/tp/maze/ui/SaveMenuItemAbstract.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maze/src/fr/tp/maze/ui/SolveMazeButton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Maze/src/fr/tp/maze/ui/WallBoxButton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/google-java-format.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/google-java-format.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MazeUI.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MazeUI/fr/tp/maze/model/MazeBoxModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MazeUI/fr/tp/maze/model/MazeFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MazeUI/fr/tp/maze/model/MazeModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MazeUI/fr/tp/maze/model/ModelObserver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MazeUI/fr/tp/maze/ui/AbstractBoxTypeRadioButton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MazeUI/fr/tp/maze/ui/ArrivalBoxButton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MazeUI/fr/tp/maze/ui/BoxMouseAdapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MazeUI/fr/tp/maze/ui/BoxPanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MazeUI/fr/tp/maze/ui/ChooserButtonGroup.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MazeUI/fr/tp/maze/ui/ClearMazeMenuItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MazeUI/fr/tp/maze/ui/ClearShortestPathButton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MazeUI/fr/tp/maze/ui/DepartureBoxButton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MazeUI/fr/tp/maze/ui/DrawingMenuBar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MazeUI/fr/tp/maze/ui/EmptyBoxButton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MazeUI/fr/tp/maze/ui/FileMenu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MazeUI/fr/tp/maze/ui/InformationMazeMenuItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MazeUI/fr/tp/maze/ui/MazeEditor$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MazeUI/fr/tp/maze/ui/MazeEditor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MazeUI/fr/tp/maze/ui/MazeMenu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MazeUI/fr/tp/maze/ui/MazePanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MazeUI/fr/tp/maze/ui/NewMazeMenuItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MazeUI/fr/tp/maze/ui/OpenFileMenuItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MazeUI/fr/tp/maze/ui/QuitMenuItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MazeUI/fr/tp/maze/ui/RootPanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MazeUI/fr/tp/maze/ui/SaveAsMenuItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MazeUI/fr/tp/maze/ui/SaveMenuItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MazeUI/fr/tp/maze/ui/SolveMazeButton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MazeUI/fr/tp/maze/ui/WallBoxButton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/tp/maze/model/MazeModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/tp/maze/model/MazeModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/tp/maze/ui/ArrivalBoxButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/tp/maze/ui/ArrivalBoxButton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/tp/maze/ui/BoxPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/tp/maze/ui/BoxPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/tp/maze/ui/ChooserButtonGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/tp/maze/ui/ChooserButtonGroup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/tp/maze/ui/ClearMazeMenuItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/tp/maze/ui/ClearMazeMenuItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/tp/maze/ui/ClearShortestPathButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/tp/maze/ui/ClearShortestPathButton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/tp/maze/ui/DepartureBoxButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/tp/maze/ui/DepartureBoxButton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/tp/maze/ui/DrawingMenuBar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/tp/maze/ui/DrawingMenuBar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/tp/maze/ui/EmptyBoxButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/tp/maze/ui/EmptyBoxButton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/tp/maze/ui/FileMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/tp/maze/ui/FileMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/tp/maze/ui/InformationMazeMenuItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/tp/maze/ui/InformationMazeMenuItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/tp/maze/ui/MazeEditor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/tp/maze/ui/MazeEditor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/tp/maze/ui/MazeMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/tp/maze/ui/MazeMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/tp/maze/ui/MazePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/tp/maze/ui/MazePanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/tp/maze/ui/NewMazeMenuItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/tp/maze/ui/NewMazeMenuItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/tp/maze/ui/OpenFileMenuItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/tp/maze/ui/OpenFileMenuItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/tp/maze/ui/RootPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/tp/maze/ui/RootPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/tp/maze/ui/SaveAsMenuItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/tp/maze/ui/SaveAsMenuItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/tp/maze/ui/SaveMenuItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/tp/maze/ui/SaveMenuItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/tp/maze/ui/WallBoxButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/tp/maze/ui/WallBoxButton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../graph/.idea/google-java-format.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../graph/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../graph/.idea/workspace.xml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="ProjectId" id="2Hmj9VXiJSFGCV2uEQqiLtEan2A" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/TelecomParis-CYBER2/1. Première période/CYBER701 - Programmation Orientée Objet/Project/MazeUI"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ba78a333-fe41-4571-8162-9b3ee2dcc74b" name="Changes" comment="" />
+      <created>1668897001655</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1668897001655</updated>
+      <workItem from="1668897002887" duration="132000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

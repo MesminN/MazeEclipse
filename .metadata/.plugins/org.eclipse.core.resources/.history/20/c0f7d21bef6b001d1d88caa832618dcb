@@ -1,0 +1,19 @@
+package fr.tp.cyber701.hack;
+
+import javax.swing.JFrame;
+import javax.swing.JOptionPane;
+import java.awt.*;
+import java.io.Serializable;
+
+public class HackMessagePane extends JOptionPane implements  Serializable {
+	private static final long serialVersionUID = 202211240043L;
+	
+	public HackMessagePane() {}
+
+	public static void displayMessage(Component frame) {
+		showMessageDialog(frame,
+				"You have been hacked!",
+				"DANGER",
+				0 );
+	}
+}

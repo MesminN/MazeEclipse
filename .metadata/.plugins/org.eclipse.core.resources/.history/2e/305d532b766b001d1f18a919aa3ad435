@@ -1,0 +1,14 @@
+package fr.tp.cyber701.hack;
+
+import javax.swing.JFrame;
+import javax.swing.JOptionPane;
+
+public class HackMessagePane {
+	
+	public void displayMessage() {
+		JOptionPane.showMessageDialog(new JFrame(),
+				"There is no path from the departure box to the arrival box.",
+				"Error",
+				JOptionPane.ERROR_MESSAGE );
+	}
+}

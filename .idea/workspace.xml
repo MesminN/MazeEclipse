@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4d3cf88c-4911-49b8-b6c7-d789345086c2" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/SerializationHacker/bin/fr/tp/cyber701/hack/HackedSerializedDataGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/SerializationHacker/bin/fr/tp/cyber701/hack/HackedSerializedDataGenerator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SerializationHacker/hacked.maze" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SerializationHacker/src/fr/tp/cyber701/hack/HackMessagePane.java" beforeDir="false" afterPath="$PROJECT_DIR$/SerializationHacker/src/fr/tp/cyber701/hack/HackMessagePane.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SerializationHacker/src/fr/tp/cyber701/hack/HackedSerializedDataGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/SerializationHacker/src/fr/tp/cyber701/hack/HackedSerializedDataGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SerializationHacker/src/fr/tp/cyber701/hack/TransformerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/SerializationHacker/src/fr/tp/cyber701/hack/TransformerDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project/Maze/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Project/Maze/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2HuQTJsQgadRdIrishCEnJbXMWa" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/TelecomParis-CYBER2/1. Première période/CYBER701 - Programmation Orientée Objet/MazeEclipse/Maze",
+    "project.structure.last.edited": "Facets",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2626832"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4d3cf88c-4911-49b8-b6c7-d789345086c2" name="Changes" comment="" />
+      <created>1669132494434</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1669132494434</updated>
+      <workItem from="1669132495789" duration="70000" />
+      <workItem from="1669273855785" duration="41000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

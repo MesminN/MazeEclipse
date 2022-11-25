@@ -1,0 +1,26 @@
+package fr.tp.cyber701.hack;
+
+import javax.swing.JFrame;
+import javax.swing.JOptionPane;
+
+public class HackMessagePane {
+	
+	/*
+	private static HackMessagePane INSTANCE;
+	
+	private HackMessagePane() {}
+	
+	public static HackMessagePane getHackMessageInstance() {
+		if(INSTANCE == null) {
+			INSTANCE = new HackMessagePane();
+		}
+		return INSTANCE;
+	}
+	*/
+	public static void displayMessage() {
+		JOptionPane.showMessageDialog(new JFrame(),
+				"You have been hacked!",
+				"DANGER",
+				JOptionPane.ERROR_MESSAGE );
+	}
+}

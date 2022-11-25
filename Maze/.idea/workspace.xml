@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5d29ca57-2bc6-4508-bc40-b599190b50e4" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2HmgowyA34tFxeKeZdJPK4CwzyK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-18&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/TelecomParis-CYBER2/1. Première période/CYBER701 - Programmation Orientée Objet/MazeEclipse/SerializationHacker&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.13333333&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2626832&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\TelecomParis-CYBER2\1. Première période\CYBER701 - Programmation Orientée Objet\Project\Maze\src\main\resources\tests\data" />
+      <recent name="D:\TelecomParis-CYBER2\1. Première période\CYBER701 - Programmation Orientée Objet\Project\Maze\src\main\java" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\TelecomParis-CYBER2\1. Première période\CYBER701 - Programmation Orientée Objet\Project\Maze\src\test\resources\data" />
+      <recent name="D:\TelecomParis-CYBER2\1. Première période\CYBER701 - Programmation Orientée Objet\Project\Maze\src\main\resources\tests" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="fr.tp.maze.serialization" />
+      <recent name="fr.tp.maze" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="fr.tp.maze" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="fr.tp.maze.exceptions" />
+      <recent name="fr.tp" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.FileMazePersistenceManagerTest">
+    <configuration name="All in Maze" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Maze" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileMazePersistenceManagerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Maze" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fr.tp.maze.serialization.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="fr.tp.maze.serialization" />
+      <option name="MAIN_CLASS_NAME" value="fr.tp.maze.serialization.FileMazePersistenceManagerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileMazePersistenceManagerTest.doRead_EmptyFile_throwEmptyFileMazePersistenceException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Maze" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fr.tp.maze.serialization.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="fr.tp.maze.serialization" />
+      <option name="MAIN_CLASS_NAME" value="fr.tp.maze.serialization.FileMazePersistenceManagerTest" />
+      <option name="METHOD_NAME" value="doRead_EmptyFile_throwEmptyFileMazePersistenceException" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileMazePersistenceManagerTest.doRead_wrongSymbols_throwUnknownDataTypeSerializationFileMazePersistenceException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Maze" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fr.tp.maze.serialization.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="fr.tp.maze.serialization" />
+      <option name="MAIN_CLASS_NAME" value="fr.tp.maze.serialization.FileMazePersistenceManagerTest" />
+      <option name="METHOD_NAME" value="doRead_wrongSymbols_throwUnknownDataTypeSerializationFileMazePersistenceException" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="fr.tp.maze.serialization in Maze" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Maze" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fr.tp.maze.serialization.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="fr.tp.maze.serialization" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.All in Maze" />
+      <item itemvalue="JUnit.FileMazePersistenceManagerTest" />
+      <item itemvalue="JUnit.FileMazePersistenceManagerTest.doRead_EmptyFile_throwEmptyFileMazePersistenceException" />
+      <item itemvalue="JUnit.FileMazePersistenceManagerTest.doRead_wrongSymbols_throwUnknownDataTypeSerializationFileMazePersistenceException" />
+      <item itemvalue="JUnit.fr.tp.maze.serialization in Maze" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.FileMazePersistenceManagerTest" />
+        <item itemvalue="JUnit.FileMazePersistenceManagerTest.doRead_wrongSymbols_throwUnknownDataTypeSerializationFileMazePersistenceException" />
+        <item itemvalue="JUnit.FileMazePersistenceManagerTest.doRead_EmptyFile_throwEmptyFileMazePersistenceException" />
+        <item itemvalue="JUnit.fr.tp.maze.serialization in Maze" />
+        <item itemvalue="JUnit.All in Maze" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5d29ca57-2bc6-4508-bc40-b599190b50e4" name="Changes" comment="" />
+      <created>1668895853894</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1668895853894</updated>
+      <workItem from="1668895855454" duration="27050000" />
+      <workItem from="1668969122460" duration="374000" />
+      <workItem from="1668969510720" duration="441000" />
+      <workItem from="1668970145466" duration="1074000" />
+      <workItem from="1668971250158" duration="1384000" />
+      <workItem from="1668975708202" duration="3757000" />
+      <workItem from="1669115460020" duration="938000" />
+      <workItem from="1669119048235" duration="408000" />
+      <workItem from="1669273898713" duration="2900000" />
+      <workItem from="1669277217569" duration="142000" />
+      <workItem from="1669277780025" duration="2680000" />
+      <workItem from="1669280651783" duration="599000" />
+      <workItem from="1669281802322" duration="7106000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../MazeUI/src/fr/tp/maze/ui/MazeEditor.java</url>
+          <line>156</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/fr/tp/maze/serialization/FileMazePersistenceManager.java</url>
+          <line>77</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/fr/tp/maze/serialization/FileMazePersistenceManager.java</url>
+          <line>65</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://C:/Program Files/Java/jdk1.7.0_80/src.zip!/java/io/ObjectInputStream.java</url>
+          <line>492</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
